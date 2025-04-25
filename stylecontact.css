@@ -3,78 +3,73 @@ body {
     background-repeat: no-repeat;
 }
 
-ul {
+.navbar ul {
   list-style-type: none;  
   display: flex;
   color: black;
-  justify-content: center;
   font-size: 20px;
+ padding-left: 547px;
+ 
 }
-
-li {
+.navbar li {
     margin-right: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+    text-decoration: none;
+
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: black;
 }
 
-a:link {
+.navbar a:link {
     color: rgb(0, 0, 0);
 }
 
 
-a:visited {
+.navbar a:visited {
     color:black
 }
 
-a:hover {
+.navbar a:hover {
     color:white;
 }
 
 
-.header h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 40px;
-    font-size: 40px;
+
+  .mb-3 {
+     margin-top: 120px;
+     width: 600px;
+     margin-left: 50px;
+    
+  }
+
+  .mb-4 {
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 50px;
+  }
+
+.mb-5 {
+  margin-top: 50px;
+  width: 600px;
+  margin-left: 50px;
 }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  input[type=submit] {
-    background-color: #96e6e7;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    padding: 20px 35px;
-    border: none;
-    border-radius: 4px;
-    border-color: black;
+.mb-6 {
+  margin-top: 50px;
+  width: 600px;
+  margin-left: 50px;
+}
 
-  }
-  
-  input[type=submit]:hover {
-    background-color: #96e6e7;
-    border-color: black;
-  }
+.button {
+  float: right;
+  margin-right: 390px;
+  margin-top: -190px;
+}
 
-  .container {
-    margin-top: 112px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .container h3 {
-  }
+p{
+  margin-left: 55px;
+}
