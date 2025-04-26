@@ -1,6 +1,7 @@
 body {
     background-image: url(portfoliobackground.png);
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 
 ul {
